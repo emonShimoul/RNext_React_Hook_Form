@@ -1,7 +1,13 @@
-import LoginForm from "./forms/LoginForm";
+// import LoginForm from "./forms/LoginForm";
+import RegistrationForm from "./forms/RegistrationForm";
 
 function App() {
-  return <LoginForm />;
+  return (
+    <>
+      {/* <LoginForm /> */}
+      <RegistrationForm />
+    </>
+  );
 }
 
 export default App;
